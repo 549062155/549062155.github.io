@@ -1844,18 +1844,15 @@ body::before {
   margin: 0px;
   padding: 4px;
   background-color: #fff;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
-  transition: 0.4s;
+  box-shadow: 0 0 30px rgba(0,0,0,0.2);
+  transition: 2s;
 }
 .site-author-avatar img:hover {
   box-shadow: 0 0 30px rgba(0,120,231,0.2);
   transform: rotate(360deg);
 }
 .site-author-avatar img {
-  display: block;
-  margin: 0 auto;
   border-radius: 50%;
-  transition: 2s all;
 }
 .site-author-name {
   margin-top: 0;
